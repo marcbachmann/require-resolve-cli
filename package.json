@@ -1,0 +1,29 @@
+{
+  "name": "require-resolve-cli",
+  "version": "1.0.0",
+  "description": "Expose require.resolve as executable. `$ resolve request` returns /path/to/node_modules/request/index.js",
+  "keywords": ["require", "resolve", "bin", "cli", "command"],
+  "bin": {
+    "resolve": "bin.js"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Marc Bachmann <marc.brookman@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "resolve-from": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "^6.0.8"
+  },
+  "main": "bin.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcbachmann/require-resolve-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcbachmann/require-resolve-cli/issues"
+  },
+  "homepage": "https://github.com/marcbachmann/require-resolve-cli#readme"
+}
