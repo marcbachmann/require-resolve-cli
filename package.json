@@ -2,7 +2,13 @@
   "name": "require-resolve-cli",
   "version": "1.0.0",
   "description": "Expose require.resolve as executable. `$ resolve request` returns /path/to/node_modules/request/index.js",
-  "keywords": ["require", "resolve", "bin", "cli", "command"],
+  "keywords": [
+    "require",
+    "resolve",
+    "bin",
+    "cli",
+    "command"
+  ],
   "bin": {
     "resolve": "bin.js"
   },
@@ -15,7 +21,7 @@
     "resolve-from": "^2.0.0"
   },
   "devDependencies": {
-    "standard": "^6.0.8"
+    "standard": "^8.0.0"
   },
   "main": "bin.js",
   "repository": {
