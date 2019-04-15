@@ -18,7 +18,7 @@
   "author": "Marc Bachmann <marc.brookman@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "resolve-from": "^2.0.0"
+    "resolve-from": "^3.0.0"
   },
   "devDependencies": {
     "standard": "^11.0.0"
